@@ -7,7 +7,7 @@
 3 . Modify the <root>/src/config.php to suit the credentials of sql server
 3 . Create the table called 'url_shortener' on above DB , with columns
       Short_Url_Link ( TEXT ) , Url ( TEXT ) , Hit_Rate ( INT )
-4 . Create a directory called as 't_urls_db' on the root directory so that code wont break
+4 . Create a directory called as 't_urls_db' on the root directory ( say alongwith root : url_shortener - where index.php will reside) so that code wont break
 5 . End of installation , we can start with tool usage
 
 ###############################
